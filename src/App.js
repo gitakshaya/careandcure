@@ -6,32 +6,38 @@ import img1 from '../src/images/dr.jpeg';
 import img2 from '../src/images/dr-1.jpeg';
 import img3 from '../src/images/dr-2.jpeg';
 import img4 from '../src/images/dr-3.jpeg';
+import img5 from '../src/images/dr-4.jpeg';
+import img6 from '../src/images/dr-5.jpeg';
+
 // import Icon from '@material-ui/core/Icon';
 
 function App() {
   return (
 
-    <div className="container-fluid bg-light border border-primary mt-2">
+    <div className="container-fluid bg-light shadow-lg p-3 mb-5 bg-white rounded bg-white rounded mt-2">
 
       <br></br>
 
       {/* Navigation */}
-      <div className="bg-light border border-primary">
-        <img src={logo} alt="CareAndCureLogo" width="80" height="60" />
-        <span class=" ml-2 mt-4 font-weight-bold  text-danger text-size">Care And Cure</span>
-        <a class="btn btn-secondary  margin-left" href="#" role="button">Home</a>
-        <a class="btn btn-info ml-3" href="#" role="button">About Us</a>
-        <a class="btn btn-success ml-3" href="#" role="button">Services</a>
-        <a class="btn btn-warning ml-3" href="#" role="button">Doctors</a>
-        <a class="btn btn-danger ml-2" href="#" role="button">Contact Us</a>
-
+      <div className="row">
+        <div className="col-sm-6 bg-light shadow-lg p-3 mb-5 bg-white rounded bg-white rounded">
+          <img src={logo} alt="CareAndCureLogo" width="100" height="100" />
+          <span class=" ml-2 mt-4 font-weight-bold  text-warning text-size">Care And Cure</span>
+        </div>
+        <div className="col-lg-6 mt-3">
+          <a class="btn btn-secondary  ml-5" href="#" role="button">Home</a>
+          <a class="btn btn-info ml-4" href="#" role="button">About Us</a>
+          <a class="btn btn-success ml-4" href="#" role="button">Services</a>
+          <a class="btn btn-warning ml-4" href="#" role="button">Doctors</a>
+          <a class="btn btn-danger ml-4" href="#" role="button">Contact Us</a>
+        </div>
       </div>
 
       {/* Content Section */}
       <br></br>
       <div className="row">
 
-        <div className=" border border-primary bg-light col-sm-6 font-weight-bold font-italic text-monospace text-danger">
+        <div className=" shadow-lg p-3 mb-5 bg-white rounded bg-white rounded bg-light col-sm-6 font-weight-bold font-italic text-monospace text-danger font-family">
           <br></br>
        We are a 15 bedded hospital located at a prime location in Akola city,
        with an easy approach from Railway Station or Bus Stand. We are serving our patients
@@ -54,9 +60,9 @@ function App() {
         <div className="col-sm-6">
           <AliceCarousel autoPlay autoPlayInterval="3000">
             <img src={img1} className="sliderimg" />
-            <img src={img2} className="sliderimg" />
-            <img src={img3} className="sliderimg" />
+            <img src={img5} className="sliderimg" />
             <img src={img4} className="sliderimg" />
+            <img src={img6} className="sliderimg" />
           </AliceCarousel>
 
         </div>
@@ -67,7 +73,7 @@ function App() {
 
       {/* Slider Section */}
       <br></br>
-      <div className="h-50 border border-primary ">
+      <div className="h-50 shadow-lg p-3 mb-5 bg-white rounded bg-white rounded ">
         <AliceCarousel autoPlay autoPlayInterval="3000">
           <img src={img1} className="sliderimg" />
           <img src={img2} className="sliderimg" />
@@ -82,7 +88,7 @@ function App() {
       <div className="row">
         <div className="col-sm-6"> <img src={logo} /></div>
 
-        <div className="bg-light col-sm-6">
+        <div className="bg-light col-sm-6 font-family">
           <h1>Our Features</h1>
           <br></br>
           <h2>15 Bedded Multispeciality Center</h2>
@@ -91,7 +97,7 @@ function App() {
           <h2>X-Ray, Ultrasound</h2>
           <h2>Pathalogy Lab</h2>
           <h2>Drug Store</h2>
-          <h2>Ambulance Service</h2>
+          <h2>Ashadow-lg p-3 mb-5 bg-white roundedulance Service</h2>
 
 
         </div>
@@ -101,7 +107,7 @@ function App() {
       <br></br>
 
       {/* Footer */}
-      <div className="row bg-secondary">
+      <div className="row bg-secondary font-family">
         <div className="col-sm-5">
           <br></br>
           <a class="link" href="#" >Home</a>
@@ -118,7 +124,7 @@ function App() {
           <a class="link" href="#" >Contact Us</a>
 
         </div>
-        <div className="col-sm-4 mt-4">
+        <div className="col-sm-4 mt-4 ">
           <h3>Care And Cure</h3>
           <h3>Rameshwar park apartments,</h3>
           <h3>near Spice Katta Restaurant,</h3>
