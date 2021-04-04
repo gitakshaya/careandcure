@@ -4,24 +4,21 @@ const { Footer } = Layout;
 
 const AppFooter = () => {
     return (
-        <Footer className="row text-dark">
-           <div className="col-sm-4 mt-4 ">
-          <h3>Care And Cure</h3>
-          <h3>Rameshwar park apartments,</h3>
-          <h3>near Spice Katta Restaurant,</h3>
-          <h3>Jawahar Nagar,</h3>
-          <h3>Akola,</h3>
-          <h3>Maharashtra 444001</h3>
-
-
-
+        <Footer className="footer mt-5 row text-dark">
+           <div className="col-md-4 mt-4 ">
+          <h4>Care And Cure</h4>
+          <h4>Rameshwar park apartments,</h4>
+          <h4>near Spice Katta Restaurant,</h4>
+          <h4>Jawahar Nagar,</h4>
+          <h4>Akola,</h4>
+          <h4>Maharashtra 444001</h4>
         </div>
 
-        <div className="col-sm-3 mt-4 ">
-          <h3>For Booking An Appointment</h3>
-          <h3>9856789865</h3>
-          <h3>(Timing – 8:00 AM to 10:00 PM)</h3>
-          <h3>Connect to Care and Cure</h3>
+        <div className="col-md-4 mt-4 ">
+          <h4>For booking an appointment</h4>
+          <h4>+91 8425845856</h4>
+          <h4>Timing – 8:00 AM to 10:00 PM</h4>
+          <h4>Connect to Care and Cure</h4>
         </div>
       </Footer>
  
