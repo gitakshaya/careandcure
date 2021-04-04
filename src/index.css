@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,42 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.app-header{
+  height: 10rem;
+  background: #f0f2f5;
+  padding: 0px 10px;
+}
+.ant-layout-footer {
+  padding: 24px 50px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  background: #f0f2f5;
+}
+.vertical-slider{
+  text-align: center;
+  height: 25.5rem;
+  line-height: 25.5rem;
+  width: 23rem;
+  background: #364d79;
+  overflow: hidden;
+}
+.vertical-slider .slider-img{
+  width: 23rem !important;
+  height: 25.5rem;
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 18.5rem;
+  line-height: 18.5rem;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.slider-img{
+  width: 32rem;
+  height: auto;
 }
