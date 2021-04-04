@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 import logo from '../src/images/logo.JPG';
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -16,10 +17,15 @@ import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // import Icon from '@material-ui/core/Icon';
+=======
+import { Carousel } from 'antd';
+import Layout from './layout/Layout';
+>>>>>>> e1c4488bcb95bc92a7ed291b4b25d0d7ec2de79f
 
 function App() {
   return (
 
+<<<<<<< HEAD
     <div className="container-fluid bg-light shadow-lg p-3 mb-5 bg-white rounded bg-white rounded mt-2">
 
       <br></br>
@@ -162,6 +168,10 @@ function App() {
 
       </div>
 
+=======
+    <div className="container-fluid bg-light shadow-lg">
+      <Layout/>
+>>>>>>> e1c4488bcb95bc92a7ed291b4b25d0d7ec2de79f
     </div>
   )
 }
