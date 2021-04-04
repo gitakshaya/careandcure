@@ -9,6 +9,12 @@ import img4 from '../src/images/dr-3.jpeg';
 import img5 from '../src/images/dr-4.jpeg';
 import img6 from '../src/images/dr-5.jpeg';
 
+import { Switch, Route,Link} from 'react-router-dom';
+import AboutUs from './AboutUs.js';
+
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 // import Icon from '@material-ui/core/Icon';
 
 function App() {
@@ -25,8 +31,8 @@ function App() {
           <span class=" ml-2 mt-4 font-weight-bold  text-warning text-size">Care And Cure</span>
         </div>
         <div className="col-lg-6 mt-3">
-          <a class="btn btn-secondary  ml-5" href="#" role="button">Home</a>
-          <a class="btn btn-info ml-4" href="#" role="button">About Us</a>
+          <a class="btn btn-secondary  ml-5" href="#" role="button"><Link to="/" className="nav-link active ">Home</Link></a>
+          <a class="btn btn-info ml-4" href="#" role="button"><Link to="/AboutUs" className="nav-link  ">About Us</Link></a>
           <a class="btn btn-success ml-4" href="#" role="button">Services</a>
           <a class="btn btn-warning ml-4" href="#" role="button">Doctors</a>
           <a class="btn btn-danger ml-4" href="#" role="button">Contact Us</a>
@@ -106,22 +112,28 @@ function App() {
 
       <br></br>
 
+      <Switch>
+       {/* {<Route exact path='/' component={Home} /> } */}
+        <Route  path='/AboutUs' component={AboutUs} />
+
+      </Switch>
+
       {/* Footer */}
       <div className="row bg-secondary font-family">
         <div className="col-sm-5">
           <br></br>
-          <a class="link" href="#" >Home</a>
+          <a class="link" >Home</a>
           <br></br>
-          <a class="link" href="#">About Us</a>
-          <br></br>
-
-          <a class="link" href="#" >Services</a>
+          <a class="link" >About Us</a>
           <br></br>
 
-          <a class="link" href="#">Doctors</a>
+          <a class="link" >Services</a>
           <br></br>
 
-          <a class="link" href="#" >Contact Us</a>
+          <a class="link" >Doctors</a>
+          <br></br>
+
+          <a class="link" >Contact Us</a>
 
         </div>
         <div className="col-sm-4 mt-4 ">
@@ -141,6 +153,13 @@ function App() {
           <h3>9856789865</h3>
           <h3>(Timing – 8:00 AM to 10:00 PM)</h3>
         </div>
+
+        <div className="col-sm-12">
+        <h3>Connect To Care And Cure <i class="fab fa-youtube"></i> <FontAwesomeIcon icon={faHome} /> </h3>
+      </div>
+
+      
+
       </div>
 
     </div>
