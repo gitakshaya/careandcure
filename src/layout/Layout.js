@@ -6,9 +6,8 @@ import Footer from "../layout/Footer";
 
 const AppLayout = (props) => (
   <Layout className="layout">
-    <Header />
+    <Header {...props}/>
     <Content />
-    <Divider/>
     <Footer />
   </Layout>
 );

@@ -1,30 +1,21 @@
 import React from "react";
 import { Layout, Carousel, Card } from "antd";
-
+import intl from 'react-intl-universal';
 const { Content } = Layout;
 
 const AppContent = (props) => {
   return (
     <Content className="container-fluid bg-light">
       <div className="row">
-        <Card className="p-3 mb-5 bg-white rounded bg-white rounded bg-light col-sm-6 font-weight-bold font-italic text-monospace text-danger font-family">
+        <Card className="p-3 mb-5 rounded bg-light col-sm-6 font-weight-bold text-monospace text-para font-family">
           <div className="my-2"></div>
-          We are a 15 bedded hospital located at a prime location in Akola city,
-          with an easy approach from Railway Station or Bus Stand. We are
-          serving our patients since last 7 years. We have been giving quality
-          services at a reasonable cost.
+         {intl.get("HOME_PARA_1")}
           <div className="my-2"></div>
-          We believe in – “Early diagnosis and adequate treatment” to prevent
-          further complications. We offer all the necessary services required
-          for the overall patient management and preventive care needed for all
-          the adults in your family.
+         {intl.get("HOME_PARA_2")}
           <div className="my-2"></div>
-          We are the pioneers in introducing e-clinic concept in Akola for OPD
-          care which offers the benefit of generating prescription in less than
-          a minute, complete patient record for paperless follow-ups and
-          portability of medical records through android application, indoor
-          patient management modules and facility to generate prescription and
-          instructions in regional languages.
+          {intl.get("HOME_PARA_3")}
+          <div className="my-2"></div>
+          {intl.get("HOME_PARA_4")}
         </Card>
         {/* Small Slider Section */}
         <div className="col-sm-6">
@@ -43,7 +34,7 @@ const AppContent = (props) => {
           </div>
 
           <div className="bg-light col-sm-6 font-family">
-            <h1>Our Features</h1>
+            <h1>{intl.get("FEATURES")}</h1>
             <h3>Hospital and Home visits</h3>
             <h3>HDU, Deluxe Rooms, General Ward</h3>
             <h3>ECG, Echo, TMT</h3>

@@ -14,9 +14,11 @@
     "antd": "^3.26.20",
     "bootstrap": "^4.6.0",
     "express": "^4.17.1",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-alice-carousel": "^2.4.0",
     "react-dom": "^17.0.2",
+    "react-intl-universal": "^2.4.5",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },

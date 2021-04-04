@@ -4,7 +4,7 @@ const { Footer } = Layout;
 
 const AppFooter = () => {
     return (
-        <Footer className="row text-dark">
+        <Footer className="footer mt-5 row text-dark">
            <div className="col-md-4 mt-4 ">
           <h4>Care And Cure</h4>
           <h4>Rameshwar park apartments,</h4>
