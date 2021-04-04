@@ -21,6 +21,7 @@ const AppFooter = () => {
           <h3>For Booking An Appointment</h3>
           <h3>9856789865</h3>
           <h3>(Timing – 8:00 AM to 10:00 PM)</h3>
+          <h3>Connect to Care and Cure</h3>
         </div>
       </Footer>
  
