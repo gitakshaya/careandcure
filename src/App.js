@@ -1,5 +1,4 @@
 import './App.css';
-import { Carousel } from 'antd';
 import Layout from './layout/Layout';
 
 function App() {
