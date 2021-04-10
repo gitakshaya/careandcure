@@ -9,6 +9,7 @@ function AboutUs() {
 
             <div className="row mt-2">
                 <Card className="col-sm-12 col-md-5 offset-md-1"
+                
                     cover={
                         <img className="card-img-top" src="/images/dr-4.jpeg" alt="Dr. Sumit Agrawal" />
                     }
