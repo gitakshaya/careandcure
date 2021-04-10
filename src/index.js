@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
+  <BrowserRouter>
     <App>...Loading</App>
+    </BrowserRouter>
   ,
   document.getElementById('root')
 );
