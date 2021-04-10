@@ -31,28 +31,25 @@ function AboutUs() {
                     />
                 </Card>
 
-                <Card className="col-sm-12 col-md-5"
-                    cover={
-                        <img className="card-img-top" src="/images/dr-4.jpeg" alt="Dr. Sumit Agrawal" />
-                    }
-                >
-                    <Meta
-                        title="Dr. Sumit Agrawal"
-                        description={<p className="card-text">
-                            <p className="mb-0">MBBS, MD</p>
-                            <p className="mb-0">(Consultant Intensivist &amp; Anaesthesiologist)</p>
-                            <p className="mb-0">J.J.Hospital, Mumbai</p>
-                            <p className="mb-0">Ex. Senior Intesivist</p>
-                            <p className="mb-0"></p>(BKC COVID Facility, Mumbai)
-          <p className="mb-0"></p>Ex. Intensivist (FORTIS, Mumbai)
-          <p className="mb-0">Ex. Specialist Medical Officer</p>
-                            <p className="mb-0">(E.S.I.S Hospital, Mumbai)</p>
-                            <p className="mb-0">Ex. Medical Officer (BMC, Mumbai)</p>
-                            <p className="mb-0">Reg. No.: MCI-1245495</p>
-                            <p className="mb-0">(M): 9970284068</p>
-                        </p>}
-                    />
-                </Card>
+                <Card className="col-sm-12 col-md-5" 
+                
+    cover={
+                          <img className="card-img-top" src="/images/dr-4.jpeg" alt="Dr. Neha Agrawal"/>
+    }
+    >
+    <Meta
+      title="Dr. Neha Agrawal"
+      description=
+      {<p className="card-text">
+      <p className="mb-0">MBBS, MD Medicine</p>
+      <p className="mb-0">(Consultant Physician)</p>
+      <p className="mb-0">Ex Physician (AIIMS, Jodhpur)</p>
+      <p className="mb-0">Ex. Assistant Professor (Dr. S.N.M.C)</p>
+      <p className="mb-0">Reg. No.: RMC-15317</p>
+      <p className="mb-0">(M): 8425845856</p>
+      </p>}
+/>
+               </Card>
 
 
                 <h2>Objectives of - Care And Cure</h2>
