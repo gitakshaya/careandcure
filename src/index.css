@@ -60,3 +60,7 @@ code {
 .text-para{
   color:rgb(63, 63, 63);
 }
+.map-iframe{
+  width:100%;
+  height: auto;
+}
