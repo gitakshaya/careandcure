@@ -1,5 +1,9 @@
 @import '~antd/dist/antd.css';
+<<<<<<< HEAD
 @import '~fortawesome/fontaweosme';
+=======
+@import '~fortawesome/fontaweosme'
+>>>>>>> 208c85f... about us
 body {
   --primary-color:#4096d0;
     margin: 0;
