@@ -3,6 +3,7 @@ import { Layout } from "antd";
 
 import Home from "../component/Home";
 import AboutUs from "../component/AboutUs";
+import ContactUs from "../component/ContactUs";
 import { Switch, Route } from "react-router-dom";
 
 const { Content } = Layout;
@@ -19,7 +20,7 @@ const AppContent = (props) => {
     },
     {
       path:"/contact-us",
-      component:<Home {...props}/>
+      component:<ContactUs {...props}/>
     }
   ]
   return (

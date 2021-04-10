@@ -81,6 +81,11 @@ h3{
 }
 
 @media screen and (max-width: 736px) {
+  .app-header{
+    height: 14.4rem;
+    background: #f0f2f5;
+    padding: 0px 10px;
+  }
   .text-size{
   
     width: 100%;
@@ -88,6 +93,11 @@ h3{
     font-size: 1.5rem;
   }
 }@media screen and (max-width: 360px) {
+  .app-header{
+    height: 15.4rem;
+    background: #f0f2f5;
+    padding: 0px 10px;
+  }
   .text-size{
   
     width: 100%;

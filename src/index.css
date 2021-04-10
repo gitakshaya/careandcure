@@ -1,9 +1,4 @@
 @import '~antd/dist/antd.css';
-<<<<<<< HEAD
-@import '~fortawesome/fontaweosme';
-=======
-@import '~fortawesome/fontaweosme'
->>>>>>> 208c85f... about us
 body {
   --primary-color:#4096d0;
     margin: 0;
@@ -19,7 +14,7 @@ code {
     monospace;
 }
 .app-header{
-  height: 15.4rem;
+  height: 11.4rem;
   background: #f0f2f5;
   padding: 0px 10px;
 }
