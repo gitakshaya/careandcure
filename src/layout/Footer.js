@@ -19,6 +19,7 @@ const AppFooter = () => {
           <h4>+91 8425845856</h4>
           <h4>Timing – 8:00 AM to 10:00 PM</h4>
           <h4>Connect to Care and Cure</h4>
+          <i className="fa fa-home"></i>
         </div>
       </Footer>
  
