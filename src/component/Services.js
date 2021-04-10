@@ -1,11 +1,12 @@
-import { Card, List, Row, Col } from 'antd'
+import { Card, List, Row, Col, Icon } from 'antd'
 import React from 'react'
 
 function Services() {
     return (
         <Row className=" d-flex justify-content-center" type="flex" gutter={[32, 8]}>
             <Col md={10} sm={24}>
-                <Card className="h-100" title={<h3>Home Service</h3>} >
+                <Card className="h-100" title={<h3><Icon type="home" />Home Service</h3>}>
+
                     <p>We offer entertainment facility in the form of cable enabled TV sets. We also have a library to pick up and read books of your choice.</p>
                     <List>
                         <List.Item>A/c deluxe rooms</List.Item>
@@ -17,7 +18,7 @@ function Services() {
             </Col>
 
             <Col md={10} sm={24}>
-                <Card title={<h3>Patient care</h3>}>
+                <Card title={<h3><Icon type="plus" />Patient care</h3>}>
                     <p>We deal with patients with utmost care &amp; offer them the best possible healthcare</p>
                     <List>
                         <List.Item>Nebulisation</List.Item>

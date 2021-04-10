@@ -1,4 +1,4 @@
-import { Card, List } from 'antd';
+import { Card, List, Row, Col } from 'antd';
 import Meta from 'antd/lib/card/Meta';
 import React from 'react'
 
@@ -51,33 +51,36 @@ function AboutUs() {
                     />
                 </Card>
 
-                <div className="row">
-                    <Card className="col-md-10 offset-md-1" title={`Objectives of - Care And Cure`}>
+                <Row className="mt-3" type={"flex"} justify={"center"} >
+                    <Col md={20} sm={24}>
+                        <Card title={<h4 className="text-first">Objectives of Care And Cure</h4>}>
 
-                        <h4>To provide a high quality personalized complete medical care to the family
-                        (excluding the pediatric age group). We believe in – Early diagnosis and adequate
-                        treatment to prevent further complications</h4>
+                            <h6 className="text-muted">To provide a high quality personalized complete medical care to the family
+                            (excluding the pediatric age group). We believe in – Early diagnosis and adequate
+                        treatment to prevent further complications</h6>
+                        </Card>
+                    </Col>
+                </Row>
 
-                    </Card>
-                </div>
 
+                <Row className="mt-3" type={"flex"} justify={"center"} >
+                    <Col md={20} sm={24}>
+                        <Card title={<h4 className="text-first">Our Mission</h4>}>
 
-                <div className="row">
-                    <Card className="col-md-10 offset-md-1" title={`Our Mission`}>
+                            <h6 className="text-muted">To provide healthcare of international standards through a team of qualified
+                            professionals and at a cost affordable to the community. We are also committed to
+                maintain clinical excellence by focusing on healthcare academics with the use of latest technology</h6>
 
-                        <h4>To provide healthcare of international standards through a team of qualified
-                        professionals and at a cost affordable to the community. We are also committed to
-                maintain clinical excellence by focusing on healthcare academics with the use of latest technology</h4>
+                            <h6 className="text-muted">
+                                To provide best quality :
+                                1. Preventive
+                                2. Primary
+                                3. Secondary – Health Care
+                </h6>
 
-                        <h4>
-                            To provide best quality :
-                            1. Preventive
-                            2. Primary
-                            3. Secondary – Health Care
-                </h4>
-
-                    </Card>
-                </div>
+                        </Card>
+                    </Col>
+                </Row>
 
 
                 <div className="row">
