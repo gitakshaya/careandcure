@@ -1,6 +1,7 @@
 import React from 'react';
 import { Layout, Menu, Select } from 'antd';
 import intl from 'react-intl-universal';
+import { Link } from "react-router-dom";
 
 const { Header } = Layout;
 const AppHeader = (props) => {
@@ -20,11 +21,12 @@ const AppHeader = (props) => {
     mode="horizontal"
     defaultSelectedKeys={['2']}
   >
-    <Menu.Item key="1">{intl.get("MENU_HOME")}</Menu.Item>
-    <Menu.Item key="2">{intl.get("MENU_ABOUT_US")}</Menu.Item>
-    <Menu.Item key="3">{intl.get("MENU_SERVICES")}</Menu.Item>
-    <Menu.Item key="4">{intl.get("MENU_CONTACT_US")}</Menu.Item>
+    <Link className="ant-menu-item" to="/home">{intl.get("MENU_HOME")}</Link>
+   <Link className="ant-menu-item" to="/about-us">{intl.get("MENU_ABOUT_US")}</Link>
+    <Link className="ant-menu-item" to="/services">{intl.get("MENU_SERVICES")}</Link>
+    <Link className="ant-menu-item" to="/contact-us">{intl.get("MENU_CONTACT_US")}</Link>
   </Menu>
+  
 </Header>
     );
 };
