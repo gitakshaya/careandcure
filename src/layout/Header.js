@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 
 const { Header } = Layout;
 const AppHeader = (props) => {
-  const [key, setKey] = useState({key:'1'})
+  const [key, setKey] = useState('1')
+
     return (
         <Header className="app-header">
         <div className="row">
@@ -20,16 +21,14 @@ const AppHeader = (props) => {
         </div>
   <Menu
     mode="horizontal"
-    defaultSelectedKeys={['2']}
+    defaultSelectedKeys={['1']}
     key={key}
-    onClick={(key)=>setKey(key)}
   >
-    <Link className={key==='1'?'ant-menu-active-item':`ant-menu-item`} to="/home">{intl.get("MENU_HOME")}</Link>
-   <Link className={key==='2'?'ant-menu-active-item':`ant-menu-item`} to="/about-us">{intl.get("MENU_ABOUT_US")}</Link>
-    <Link className={key==='3'?'ant-menu-active-item':`ant-menu-item`} to="/services">{intl.get("MENU_SERVICES")}</Link>
-    <Link className={key==='4'?'ant-menu-active-item':`ant-menu-item`} to="/contact-us">{intl.get("MENU_CONTACT_US")}</Link>
+    <Link onClick={()=>setKey('1')} className={`ant-menu-item ${key==='1'?'ant-menu-item-selected':''}`} to="/home">{intl.get("MENU_HOME")}</Link>
+   <Link onClick={()=>setKey('2')} className={`ant-menu-item ${key==='2'?'ant-menu-item-selected':''}`} to="/about-us">{intl.get("MENU_ABOUT_US")}</Link>
+    <Link onClick={()=>setKey('3')} className={`ant-menu-item ${key==='3'?'ant-menu-item-selected':''}`} to="/services">{intl.get("MENU_SERVICES")}</Link>
+    <Link onClick={()=>setKey('4')} className={`ant-menu-item ${key==='4'?'ant-menu-item-selected':''}`} to="/contact-us">{intl.get("MENU_CONTACT_US")}</Link>
   </Menu>
-  
 </Header>
     );
 };
