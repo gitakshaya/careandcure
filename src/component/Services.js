@@ -5,21 +5,21 @@ function Services() {
     return (
         <Row className=" d-flex justify-content-center" type="flex" gutter={[32, 8]}>
             <Col md={10} sm={24}>
-                <Card className="h-100" title={<h3><Icon type="home" />Home Service</h3>}>
+                <Card className="service-card h-100" title={<h3><Icon className="icon-wrapper mr-2" type="home" />Home Visits</h3>}>
 
-                    <p>We offer entertainment facility in the form of cable enabled TV sets. We also have a library to pick up and read books of your choice.</p>
+                    <p>We provide first of its kind, M.D. Doctor's home visitations service.</p>
                     <List>
-                        <List.Item>A/c deluxe rooms</List.Item>
-                        <List.Item>Special room</List.Item>
-                        <List.Item>HDU</List.Item>
-                        <List.Item>General Ward</List.Item>
+                        <List.Item>Daily report analysis</List.Item>
+                        <List.Item>Proper sanitary measures</List.Item>
+                        <List.Item>Diagnosis instruments are provided by us</List.Item>
+                        <List.Item></List.Item>
                     </List>
                 </Card>
             </Col>
 
             <Col md={10} sm={24}>
-                <Card title={<h3><Icon type="plus" />Patient care</h3>}>
-                    <p>We deal with patients with utmost care &amp; offer them the best possible healthcare</p>
+                <Card className="service-card" title={<h3><Icon className="icon-wrapper mr-2" type="plus" />Patient care</h3>}>
+                    <p>We deal with patients with utmost care &amp; offer them the best possible healthcare.</p>
                     <List>
                         <List.Item>Nebulisation</List.Item>
                         <List.Item>Blood sugar monitoring – Glucometer.</List.Item>

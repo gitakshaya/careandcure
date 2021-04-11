@@ -1,6 +1,7 @@
 @import '~antd/dist/antd.css';
 body {
   --primary-color:#4096d0;
+  --box-shadow-color: rgba(97, 197, 255, 0.48);
     margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -63,4 +64,44 @@ code {
 .map-iframe{
   width:100%;
   height: auto;
+}
+.icon-wrapper{
+  vertical-align: initial;
+}
+.service-card{
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+  z-index: 0;
+  overflow: hidden;
+}
+.service-card .icon-wrapper{
+  color: white;
+}
+.service-card:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 1.25rem;
+  left: 1.25rem;
+  background: linear-gradient(45deg,var(--primary-color),rgb(3, 205, 212));
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 2.2rem;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease-out;
+}
+.service-card:hover{
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11), 0 24px 46px var(--box-shadow-color);
+  color: white;
+}
+.service-card:hover:before {
+  transform: scale(40);
+}
+.service-card:hover .ant-card-head{
+  color: white !important;
+}
+.service-card:hover .ant-list-item{
+  color: white !important;
 }
