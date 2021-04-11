@@ -41,6 +41,8 @@ function Home() {
             <h3>Drug Store</h3>
             <h3>Ambulance Service</h3>
           </div>
+          <Carousel autoPlay>
+        </Carousel>
         </div>
       </div>
     )
