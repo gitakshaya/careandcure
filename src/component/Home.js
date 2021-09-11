@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel, Card } from "antd";
 import intl from 'react-intl-universal';
+import Iframe from 'react-iframe';
 
 function Home() {
   return (
@@ -18,9 +19,9 @@ function Home() {
       {/* Small Slider Section */}
       <div className="col-sm-6 h-100">
         <Carousel className="h-100">
-          <iframe className="iframe-carousel" src="https://www.youtube.com/embed/ttTC4zaq7cc" title="COVID Awareness 1" frameborder="0" allowfullscreen></iframe>
-          <iframe className="iframe-carousel" src="https://www.youtube.com/embed/FRZuP29DTVw" title="COVID Awareness 2" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe className="iframe-carousel" src="https://www.youtube.com/embed/ZdY0gGr_1Xg" title="COVID Awareness 3" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <Iframe className="iframe-carousel" src="https://www.youtube.com/embed/ttTC4zaq7cc" title="COVID Awareness 1" frameborder="0" allowfullscreen></Iframe>
+          <Iframe className="iframe-carousel" src="https://www.youtube.com/embed/FRZuP29DTVw" title="COVID Awareness 2" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe>
+          <Iframe className="iframe-carousel" src="https://www.youtube.com/embed/ZdY0gGr_1Xg" title="COVID Awareness 3" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe>
         </Carousel>
       </div>
 

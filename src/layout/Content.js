@@ -35,12 +35,12 @@ const AppContent = (props) => {
   ]
   return (
     <Content className="container-fluid bg-light">
-      <div className="booking-button-container">
+      {/* <div className="booking-button-container">
       <Link to="/book-appointment" className=" booking-button">
         <span className="book-strong">Book</span>
         <span className="book-appointment">Appointment</span>
         </Link>
-        </div>
+        </div> */}
      <Switch>
           {routes.map((route)=><Route path={route.path}>
             {route.component}
