@@ -11,7 +11,7 @@ function AboutUs() {
                 <Card className="col-sm-12 col-md-5 offset-md-1"
                 
                     cover={
-                        <img className="card-img-top" src="/images/dr-4.jpeg" alt="Dr. Sumit Agrawal" />
+                        <img className="card-img-top" src="/images/DrSumit.jpg" alt="Dr. Sumit Agrawal" />
                     }
                 >
                     <Meta
@@ -35,7 +35,7 @@ function AboutUs() {
                 <Card className="col-sm-12 col-md-5"
 
                     cover={
-                        <img className="card-img-top" src="/images/dr-4.jpeg" alt="Dr. Neha Agrawal" />
+                        <img className="card-img-top" src="/images/DrNeha.jpg" alt="Dr. Neha Agrawal" />
                     }
                 >
                     <Meta
