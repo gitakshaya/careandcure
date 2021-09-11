@@ -9,7 +9,7 @@ function AboutUs() {
 
             <div className="row mt-2">
                 <Card className="col-sm-12 col-md-5 offset-md-1"
-                
+
                     cover={
                         <img className="card-img-top" src="/images/DrSumit.jpg" alt="Dr. Sumit Agrawal" />
                     }
@@ -22,8 +22,8 @@ function AboutUs() {
                             <p className="mb-0">J.J.Hospital, Mumbai</p>
                             <p className="mb-0">Ex. Senior Intesivist</p>
                             <p className="mb-0"></p>(BKC COVID Facility, Mumbai)
-          <p className="mb-0"></p>Ex. Intensivist (FORTIS, Mumbai)
-          <p className="mb-0">Ex. Specialist Medical Officer</p>
+                            <p className="mb-0"></p>Ex. Intensivist (FORTIS, Mumbai)
+                            <p className="mb-0">Ex. Specialist Medical Officer</p>
                             <p className="mb-0">(E.S.I.S Hospital, Mumbai)</p>
                             <p className="mb-0">Ex. Medical Officer (BMC, Mumbai)</p>
                             <p className="mb-0">Reg. No.: MCI-1245495</p>
@@ -57,8 +57,8 @@ function AboutUs() {
                         <Card title={<h4 className="text-first">Objectives of Care And Cure</h4>}>
 
                             <h6 className="text-muted">To provide a high quality personalized complete medical care to the family
-                            (excluding the pediatric age group). We believe in – Early diagnosis and adequate
-                        treatment to prevent further complications</h6>
+                                (excluding the pediatric age group). We believe in – Early diagnosis and adequate
+                                treatment to prevent further complications</h6>
                         </Card>
                     </Col>
                 </Row>
@@ -69,45 +69,38 @@ function AboutUs() {
                         <Card title={<h4 className="text-first">Our Mission</h4>}>
 
                             <h6 className="text-muted">To provide healthcare of international standards through a team of qualified
-                            professionals and at a cost affordable to the community. We are also committed to
-                maintain clinical excellence by focusing on healthcare academics with the use of latest technology</h6>
+                                professionals and at a cost affordable to the community. We are also committed to
+                                maintain clinical excellence by focusing on healthcare academics with the use of latest technology</h6>
 
                             <h6 className="text-muted">
                                 To provide best quality :
                                 1. Preventive
                                 2. Primary
                                 3. Secondary – Health Care
-                </h6>
+                            </h6>
 
                         </Card>
                     </Col>
                 </Row>
-
-
-                <div className="row">
-                    <Card className="col-md-10 offset-md-1" title={`Vision`}>
-
-                        <h3>To prevent the progression of disease by intervening at early stages</h3>
-                        <h3>Patient awareness regarding early and timely intervention to avoid disease complication.</h3>
-                        <h3>Achieving health of our patients in all dimensions – Physical, Mental and Spiritual.</h3>
-
+                <Row className="mt-3" type={"flex"} justify={"center"} >
+                    <Col md={20} sm={24}>
+                    <Card  title={<h4 className="text-first">Vision</h4>}>
+                        <h6 className='text-muted'>To prevent the progression of disease by intervening at early stages</h6>
+                        <h6 className='text-muted'>Patient awareness regarding early and timely intervention to avoid disease complication.</h6>
+                        <h6 className='text-muted'>Achieving health of our patients in all dimensions – Physical, Mental and Spiritual.</h6>
                     </Card>
-                </div>
-
-
-                <div className="row">
-                    <Card className="col-md-10 offset-md-1" title={`Values`}>
-
-                        <h3>Perfection – Quality care through trained professionals.</h3>
-                        <h3>Politeness – Realising the sufferings of our patients, we take proper care in understanding their pain and providing them, the utmost, gentle, polite and motherly care.</h3>
-                        <h3>Technology – Using the latest technology to improve patient care, easy communication, easy reproducibility and paperless, fast and portable health care facility.</h3>
-                        <h3>Environment – To provide calm, clean, pleasant and safe environment to expedite the healing process.</h3>
-
-
+                    </Col>
+                </Row>
+                <Row className="mt-3" type={"flex"} justify={"center"} >
+                    <Col md={20} sm={24}>
+                    <Card title={<h4 className="text-first">Values</h4>}>
+                        <h6 className='text-muted'>Perfection – Quality care through trained professionals.</h6>
+                        <h6 className='text-muted'>Politeness – Realising the sufferings of our patients, we take proper care in understanding their pain and providing them, the utmost, gentle, polite and motherly care.</h6>
+                        <h6 className='text-muted'>Technology – Using the latest technology to improve patient care, easy communication, easy reproducibility and paperless, fast and portable health care facility.</h6>
+                        <h6 className='text-muted'>Environment – To provide calm, clean, pleasant and safe environment to expedite the healing process.</h6>
                     </Card>
-                </div>
-
-
+                    </Col>
+                </Row>
             </div>
         </div>
     )
