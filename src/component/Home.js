@@ -34,8 +34,7 @@ function Home() {
         <div className="bg-light col-md-4 col-sm-6 font-family">
           <h1>{intl.get("FEATURES")}</h1>
           <h3>Hospital and Home visits</h3>
-          <h3>HDU, Deluxe Rooms, General Ward</h3>
-          <h3>ECG, Echo, TMT</h3>
+          <h3>ICU, Deluxe Rooms, General Ward</h3>
           <h3>X-Ray, Ultrasound</h3>
           <h3>Pathalogy Lab</h3>
           <h3>Drug Store</h3>

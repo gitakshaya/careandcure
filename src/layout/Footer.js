@@ -6,10 +6,10 @@ const AppFooter = () => {
     return (
         <Footer className="footer mt-5 row text-dark">
            <div className="col-md-4 mt-4 ">
-          <h4>Care And Cure</h4>
-          <h4>Rameshwar park apartments,</h4>
-          <h4>near Spice Katta Restaurant,</h4>
-          <h4>Jawahar Nagar,</h4>
+          <h4>Lifeline Hospital</h4>
+          <h4>C/O Care And Cure</h4>
+          <h4>Near GMD market,</h4>
+          <h4>Ram Nagar,</h4>
           <h4>Akola,</h4>
           <h4>Maharashtra 444001</h4>
         </div>
